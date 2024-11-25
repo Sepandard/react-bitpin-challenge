@@ -20,7 +20,7 @@ export const MarketsLayout = () => {
         data?.results?.length > 0 ? (
           <Markets data={data.results}></Markets>
         ) : (
-          <span className="mt-5">No data found!</span>
+          <span className="mt-5"><b>No data found! </b></span>
         )
       ) : (
         <div className="flex gap-2 mt-5">
